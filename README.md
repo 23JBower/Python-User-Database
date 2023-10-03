@@ -1,9 +1,13 @@
 # Python-User-Database
 ## Setup
-1. Copy the code in "main.py" and paste irt into the top of your project.
-2. Run "setup.py" in teh same directory as your project.
-3. Follow instructions in setup.py.
+1. Copy the code in "main.py" and paste it at the top of your script.
+2. Download "setup.py" in the same directory and run it.
+3. Fill in the requested information in "setup.py"
 
-## Functions
-USconfig() - Run to open the configuration panel in your project
-USdebug() - Used for debugging,
+## How To
+| Function | About |  Required |
+| ------------- | ------------- | ------------- |
+| 'USlogin()' | Takes the user to the PUDB login page. | `True` | 
+| 'USsignup()' | Allows the user to login to an existing account | `True` | 
+| 'USvalidate() | Checks that PUDB was correctly installed | `False` |
+| 'USconfig()' | Allows admin users (Level 3) to manage users | `False` | 
